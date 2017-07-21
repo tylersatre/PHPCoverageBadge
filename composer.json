@@ -1,6 +1,6 @@
 {
-    "name": "jaschilz/PHPCoverageBadge",
-    "description": "Automated code coverage badge generation",
+    "name": "jaschilz/php-coverage-badger",
+    "description": "Create a code coverage badge from a PHPUnit Clover XML file.",
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/jaschilz/PhpCoverageBadge",
