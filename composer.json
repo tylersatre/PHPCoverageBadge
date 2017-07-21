@@ -1,10 +1,15 @@
 {
-    "name": "michaelmoussa/php-coverage-checker",
-    "description": "Automated code coverage percentage checking",
+    "name": "jaschilz/PHPCoverageBadge",
+    "description": "Automated code coverage badge generation",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/michaelmoussa/PhpCoverageChecker",
+    "homepage": "https://github.com/jaschilz/PhpCoverageBadge",
     "authors": [
+        {
+            "name": "Joseph Schilz",
+            "email": "joseph@schilz.org",
+            "homepage": "https://www.schilz.org"
+        },
         {
             "name": "Marco Pivetta",
             "email": "ocramius@gmail.com",
@@ -12,6 +17,6 @@
         }
     ],
     "bin": [
-        "bin/php-coverage-checker"
+        "bin/php-coverage-badger"
     ]
 }
