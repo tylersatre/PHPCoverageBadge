@@ -8,8 +8,6 @@ Composer!
 
 `composer require --dev jaschilz/php-coverage-badger`
 
-NOTE: THIS PACKAGE IS STILL IN DEVELOPMENT AND HAS NOT YET BEEN PUBLISHED
-
 ## Usage
 
 1. Generate [XML Code Coverage](https://phpunit.de/manual/current/en/logging.html#logging.codecoverage.xml) using [PHPUnit](https://phpunit.de/manual/current/en/appendixes.configuration.html#appendixes.configuration.logging)
