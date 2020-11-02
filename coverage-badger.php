@@ -17,7 +17,7 @@ foreach ($metrics as $metric) {
     $checkedElements += (int) $metric['coveredelements'];
 }
 
-$coverage = (float)(($totalElements === 0) ? 0 : round(($checkedElements / $totalElements) * 100), 2);
+$coverage = (($totalElements === 0) ? 0 : round(($checkedElements / $totalElements * 100), 2));
 
 $template = file_get_contents(__DIR__ . '/templates/flat.svg');
 
